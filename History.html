@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History</title>
+    <style>
+        h3 {
+            cursor: pointer;
+        }
+
+        #head1 {
+            text-align: left;
+            font-size: 30px;
+            margin-bottom: 6px;
+        }
+
+        #head1:hover {
+            color: brown;
+            background-color: darkblue;
+            margin-right: 1230px;
+            border-radius: 5px;
+        }
+
+        #head2 {
+            text-align: left;
+            font-size: 30px;
+            margin-bottom: 6px;
+        }
+
+        #head2:hover {
+            color: brown;
+            background-color: darkblue;
+            margin-right: 870px;
+            border-radius: 5px;
+        }
+
+        #head3 {
+            text-align: left;
+            font-size: 30px;
+            margin-bottom: 6px;
+        }
+
+        #head3:hover {
+            color: brown;
+            background-color: darkblue;
+            margin-right: 820px;
+            border-radius: 5px;
+        }
+
+        #img1 {
+            margin-left: 300px;
+        }
+
+        #img2 {
+            margin-top: 30px;
+        }
+
+        #img3 {
+            margin-top: 15px;
+        }
+
+        #p1 {
+            text-align: center;
+        }
+
+        #p1:hover {
+            color: brown;
+            text-decoration: underline;
+        }
+
+        #p2 {
+            text-align: center;
+            padding-right: 1020px;
+        }
+
+        #p2:hover {
+            color: brown;
+            text-decoration: underline;
+        }
+
+        #p3 {
+            text-align: center;
+            padding-right: 1020px;
+        }
+
+        #p3:hover {
+            color: brown;
+            text-decoration: underline;
+        }
+
+        body {
+            background-color: #ccfccd;
+            font-family: sans-serif;
+        }
+
+        .pics {
+            border-radius: 10px;
+            border: 2px solid black;
+            filter: blur(5px);
+            filter: blur(0.1rem);
+        }
+
+        .pics:hover{
+            filter: blur(0);
+            filter: drop-shadow(4px 4px rgb(8, 8, 8));
+        }
+
+        #div1 {
+            margin-left: 320px;
+            margin-bottom: 30px;
+        }
+
+        #div2 {
+            margin-left: 320px;
+            margin-bottom: 30px;
+        }
+
+        .hwrap:hover {
+            overflow: hidden;
+            background: rgb(128, 183, 247);
+            border-radius: 20px;
+        }
+
+        .hmove {
+            display: flex;
+        }
+
+        .hitem {
+            flex-shrink: 0;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px;
+            text-align: center;
+            color: darkblue;
+        }
+
+        @keyframes tickerh {
+            0% {
+                transform: translate3d(100%, 0, 0);
+            }
+
+            100% {
+                transform: translate3d(-400%, 0, 0);
+            }
+        }
+
+        .hmove {
+            animation: tickerh linear 25s infinite;
+        }
+
+        .hmove:hover {
+            animation-play-state: paused;
+        }
+
+        p {
+            word-spacing: 0.2cm;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hwrap">
+        <div class="hmove">
+            <div class="hitem">India’s Largest Manufacturing Hub for Artificial Fabrics.</div>
+            <div class="hitem">Surat is the World's Largest Diamond Cutting & Polishing Hub.</div>
+        </div>
+    </div>
+    <h3 id="head1">History</h3>
+    <hr color="black">
+    <img class="pics" src="Suratgrowth.jpg" alt="Surat-Growth" align="center" id="img1">
+    <p id="p1"><b>Surat Growth Map</b></p>
+    <h3 id="head2">Surat before the Mughal Empire</h3>
+    <hr color="black">
+    <img class="pics" src="330px-Surat_city.jpg" alt="Surat_city" width="300" align="left" id="img2">
+    <div id="div1">
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;From 1297, Gujarat was gradually conquered by Allauddin Khilji, the ruler of the
+            principal state in north India at the time, the Delhi Sultanate. The Delhi Sultanate appointed Governors to
+            control Gujarat, but this had to be forcefully imposed, notably in 1347, when Muhammad bin Tughluq sacked
+            Surat,
+            among other cities.
+            <br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As control from the Delhi Sultanate waned at the end of the 14th
+            century,
+            pressure grew for an independent Gujarat, culminating in the then Governor Zafar Khan declaring independence
+            in
+            1407. Surat was controlled directly by the nobles of the Rajput kingdom of Baglana who fell either under the
+            Gujarat Sultans or the Deccan sultanates. However, following the fall of the Gujarat Sultanate in 1538 it
+            was
+            controlled by more local nobles starting with Chengiz Khan who enjoyed absolute authority over Surat,
+            Broach,
+            Baroda and Champaner. However, in 1637, Aurangzeb fully annexed Baglana into the Mughal Empire.
+            <br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In 1514, the Portuguese traveler Duarte Barbosa described Surat as an
+            important seaport, frequented by many ships from Malabar and various parts of the world. By 1520, the name
+            of
+            the city had become Surat. It was burned by the Portuguese (1512 and 1530) and conquered by the Mughals
+            (1573)
+            and was twice raided by the Maratha king Shivaji (17th century).
+        </p>
+    </div>
+    <b>
+        <p id="p2">Surat in 1877</p>
+    </b>
+    <br>
+    <h3 id="head3">Dutch-Armenian Cemetery of Surat</h3>
+    <hr color="black">
+    <img src="330px-Dutch_Cemetery_of_Surat.jpg" alt="Dutch-Armenian Cemetery of Surat" width="300px" align="left"
+        class="pics" id="img3">
+    <div id="div2">
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;It was the most prosperous port in the Mughal empire. Despite being a rich city,
+            Surat looked like a typical "grubby" trader's town with mud-and-bamboo tenements and crooked streets,
+            although along the riverfront there were a few mansions and warehouses belonging to local merchant princes
+            and the establishments of Turkish, Armenian, English, French and Dutch traders. There were also hospitals
+            for cows, horses, flies and insects run by religious Jains, which puzzled travelers. Some streets were
+            narrow while others were of sufficient width. In the evening, especially near the Bazaar (marketplace), the
+            streets became crowded with people and merchants (including Banyan merchants) selling their goods. Surat was
+            a populous city during the Mughal era but also had a large transient population: during the monsoon season,
+            when ships could come and go from the ports without danger, the city's population would swell. In 1612,
+            England established its first Indian trading factory in Surat. The city was looted twice by the Maratha king
+            Shivaji, with the first sacking occurring in 1664. Shivaji's raids scared trade away and caused ruin to the
+            city.</p>
+    </div>
+    <br>
+    <b>
+        <p id="p3">Dutch-Armenian Cemetery of Sura</p>
+    </b>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Later, Surat became the emporium of India, exporting gold and
+        cloth. Its major industries were shipbuilding and textile manufacture. The coast of the Tapti River, from
+        Athwalines to Dumas, was specially meant for shipbuilders, who were usually Rassis. The city continued to be
+        prosperous until the rise of Bombay (present-day Mumbai). Afterward, Surat's shipbuilding industry declined and
+        Surat itself gradually declined throughout the 18th century. During 1790–1791, an epidemic killed 100,000
+        Gujaratis in Surat. The British and Dutch both claimed control of the city, but in 1800, the British took
+        control of Surat.</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;By the middle of the 19th century, Surat had become a stagnant city with about 80,000
+        inhabitants. When India's railways opened, the city started becoming prosperous again. Silks, cotton, brocades,
+        and objects of gold and silver from Surat became famous and the ancient art of manufacturing fine muslin was
+        revived.</p>
+</body>
+
+</html>
